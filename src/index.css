@@ -18,7 +18,7 @@ body {
 }
 
 .app.warm{
-  background-image: url('./assets/warm-image.jpg');
+  background-image: url('./assets/warm-bg.jpg');
 }
 
 main{
@@ -28,8 +28,10 @@ main{
 }
 
 .search-box{
-  width: 100%;
-  margin: 0 0 75px;
+  width: 80%;
+  margin:0 auto;
+  padding-top: 10px;
+ 
 }
 
 .search-box .search-bar {
@@ -37,6 +39,7 @@ main{
   width: 100%;
   padding: 15px;
   margin-top: 30px;
+  cursor:pointer;
 
   appearance: none;
   background: none;
@@ -55,11 +58,14 @@ main{
   transition: 0.4s ease;
 }
 
+
+
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 .location-box .location {
+  padding-top: 10px;
   color: #FFF;
   font-size: 32px;
   font-weight: 500;
